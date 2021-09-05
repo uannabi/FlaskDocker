@@ -11,7 +11,7 @@
      "containerDefinitions": [
        {
          "name": "service-api",
-         "image": "<FMI>/service-api:latest",
+         "image": "737926851765.dkr.ecr.ap-southeast-1.amazonaws.com/service-api:latest",
          "essential": true,
          "memory": 128,
          "portMappings": [
@@ -29,7 +29,7 @@
        },
        {
          "name": "price-api",
-         "image": "<FMI>/price-api:latest",
+         "image": "737926851765.dkr.ecr.ap-southeast-1.amazonaws.com/price-api:latest",
          "memory": 128,
          "portMappings": [
            {
