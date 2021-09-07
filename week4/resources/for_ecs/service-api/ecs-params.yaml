@@ -1,6 +1,6 @@
 version: 1
 task_definition:
-  task_execution_role: "<FMI>"
+  task_execution_role: "arn:aws:iam::737926851765:role/fancy-task-role"
   task_size:
     cpu_limit: "512"
     mem_limit: "256"
