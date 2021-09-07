@@ -1,0 +1,6 @@
+version: "3.0"
+services:
+  price-api:
+    image: "<FMI>"
+    ports:
+      - "0:3000"
