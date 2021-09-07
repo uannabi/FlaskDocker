@@ -4,10 +4,10 @@ sudo curl -o /usr/local/bin/ecs-cli https://amazon-ecs-cli.s3.amazonaws.com/ecs-
 sudo chmod +x /usr/local/bin/ecs-cli
 sleep 2
 
-cd /home/ec2-user/environment/resources/service_api
+cd /Users/khoundokarzahid/Stack/github/FlaskDocker/week4/resources/service_api
 docker build --tag service-api .
 sleep 2
-cd /home/ec2-user/environment/resources/price_api
+cd /Users/khoundokarzahid/Stack/github/FlaskDocker/week4/resources/price_api
 docker build --tag price-api .
 sleep 2
 aws ecr create-repository --repository-name service-api --region us-west-2 --query repository.repositoryUri
