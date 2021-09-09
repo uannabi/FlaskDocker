@@ -3,3 +3,4 @@
   - AWS Fargate
   - AWS ECS
   - AWS EKS
+  - AWS ECR
