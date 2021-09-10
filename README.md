@@ -4,3 +4,5 @@
   - AWS ECS
   - AWS EKS
   - AWS ECR
+  - AWS Fargate
+  - AWS AppMesh
